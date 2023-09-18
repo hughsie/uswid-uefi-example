@@ -1,0 +1,3 @@
+
+# this firmware only has one DXE, and ohh what if life could be that simple in reality...
+subdir('CryptoDxe')
