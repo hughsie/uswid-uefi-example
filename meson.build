@@ -33,12 +33,6 @@ ini_toplevel = configure_file(
 # this is used by multiple UEFI modules
 inf2ini = ['python3', files('inf2ini.py')]
 
-#sbom_built += custom_target('compiler.uswid',
-#  input: ini_compiler,
-#  output: 'compiler.uswid',
-#  command: [uswid, '--verbose', '--load', '@INPUT@', '--save', '@OUTPUT@'],
-#)
-
 subdir('src')
 subdir('ucode')
 subdir('parachuted')
