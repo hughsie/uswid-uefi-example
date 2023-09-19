@@ -40,4 +40,8 @@ sbom_static += files('fwupdx64.efi')
 # 000000b0: 6418 206b 6875 6768 736b 692e 636f 6d18  d. khughski.com.
 # 000000c0: 2183 0104 0204 80de adbe efde adbe efde  !...............
 # 000000d0: adbe efde adbe efde adbe efde adbe efde  ................
+#
+# NOTE: in real world firmware this needs to be embedded as a zlib-compressed blob (e.g. using
+# the --compress flag in uswid) -- but I left it uncompressed here to show the "magic" uSWID
+# header and the plaintext SBoM data
 sbom_static += files('ec-firmware.bin')
