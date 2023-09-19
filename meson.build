@@ -41,6 +41,7 @@ inf2ini = ['python3', files('inf2ini.py')]
 
 subdir('src')
 subdir('ucode')
+subdir('parachuted')
 
 # build all the small per-component uSWID files into one tiny deduped and compressed blob
 args = []

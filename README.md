@@ -111,5 +111,8 @@ Which gives:
      - uSwidEntity(GNU Project,org.gnu->SOFTWARE_CREATOR,TAG_CREATOR)
     uSwidIdentity(bcbd84ff-9898-4922-8ade-dd4bbe2e40ba,0,MCU 06-03-02,20230808):
      - uSwidEntity(Intel Corporation,com.intel->TAG_CREATOR,SOFTWARE_CREATOR)
+    uSwidIdentity(b84ed8ed-a7b1-502f-83f6-90132e68adef,0,fwupdx64,1.5):
+     - uSwidLink(https://spdx.org/licenses/LGPL-2.0.html,license)
+     - uSwidEntity(Richard Hughes,hughsie.com->MAINTAINER,TAG_CREATOR)
 
-The output `demo.uswid` is 408 bytes in size.
+The output `demo.uswid` is 572 bytes in size.
