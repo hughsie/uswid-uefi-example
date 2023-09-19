@@ -16,7 +16,7 @@ sbom_static = []
 # find the binary
 uswid = find_program('uswid')
 
-# add a compiler entity so we know what we build this with
+# add a compiler identity so we know what we build this with
 sbom_static += configure_file(
   input : 'compiler.ini',
   output : 'compiler.ini',
