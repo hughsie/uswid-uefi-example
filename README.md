@@ -114,5 +114,7 @@ Which gives:
     uSwidIdentity(b84ed8ed-a7b1-502f-83f6-90132e68adef,0,fwupdx64,1.5):
      - uSwidLink(https://spdx.org/licenses/LGPL-2.0.html,license)
      - uSwidEntity(Richard Hughes,hughsie.com->MAINTAINER,TAG_CREATOR)
+    uSwidIdentity(21242ff8-e2c6-5801-a4f3-807acc08a2d2,0,ModemBaseband,11.22.33):
+     - uSwidEntity(Hughski Limited,hughski.com->TAG_CREATOR,DISTRIBUTOR,SOFTWARE_CREATOR)
 
-The output `demo.uswid` is 572 bytes in size.
+The output `demo.uswid` is 670 bytes in size.

@@ -21,3 +21,23 @@
 #  140d0 21ffffff                             !...
 
 sbom_static += files('fwupdx64.efi')
+
+# this is a firmware file from the vendor -- we don't know what it is -- and we can't load it
+# as a PE or ELF elf -- but it does have an embedded uSWID section we can locate and consume
+#
+# $ xxd ec-firmware.bin
+# 00000000: dead beef dead beef dead beef dead beef  ................
+# 00000010: dead beef dead beef 5342 4f4d d6ba 2eac  ........SBOM....
+# 00000020: a3e6 7a52 aaee 3baf 0117 0098 0000 00a9  ..zR..;.........
+# 00000030: 0f65 656e 2d55 5300 5021 242f f8e2 c658  .een-US.P!$/...X
+# 00000040: 01a4 f380 7acc 08a2 d208 f501 6d4d 6f64  ....z.......mMod
+# 00000050: 656d 4261 7365 6261 6e64 0d68 3131 2e32  emBaseband.h11.2
+# 00000060: 322e 3333 0e01 05a2 1832 6575 5357 4944  2.33.....2euSWID
+# 00000070: 182d 7828 6232 6564 3666 3165 6438 3538  .-x(b2ed6f1ed858
+# 00000080: 3762 6630 3161 3239 3531 6437 3435 3132  7bf01a2951d74512
+# 00000090: 6137 3066 3161 3531 3264 3338 0281 a318  a70f1a512d38....
+# 000000a0: 1f6f 4875 6768 736b 6920 4c69 6d69 7465  .oHughski Limite
+# 000000b0: 6418 206b 6875 6768 736b 692e 636f 6d18  d. khughski.com.
+# 000000c0: 2183 0104 0204 80de adbe efde adbe efde  !...............
+# 000000d0: adbe efde adbe efde adbe efde adbe efde  ................
+sbom_static += files('ec-firmware.bin')
