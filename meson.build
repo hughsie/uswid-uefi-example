@@ -32,6 +32,7 @@ ini_toplevel = configure_file(
 
 # this is used by multiple UEFI modules
 inf2ini = ['python3', files('inf2ini.py')]
+embed_hash_in_ini = ['python3', files('embed-hash-in-ini.py')]
 
 subdir('src')
 subdir('ucode')

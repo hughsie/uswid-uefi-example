@@ -10,6 +10,12 @@
         "product": "CPU"
       }
     ],
+    "hash": [
+      {
+        "alg_id": "SHA256",
+        "value": "067cb8292dc062eabbe05734ef7987eb1333b6b6067cb8292dc062eabbe05734ef7987eb1333b6b6"
+      }
+    ],
     "entity": [
       {
         "entity-name": "Intel Corporation",
