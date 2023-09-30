@@ -10,10 +10,14 @@
         "product": "CPU"
       }
     ],
-    "hash": [
+    "payload": [
       {
-        "alg_id": "SHA256",
-        "value": "067cb8292dc062eabbe05734ef7987eb1333b6b6067cb8292dc062eabbe05734ef7987eb1333b6b6"
+        "fs-name": "intel-ucode-06-03-02",
+        "size": 12,
+        "hash": [
+          "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
+          1
+        ]
       }
     ],
     "entity": [
