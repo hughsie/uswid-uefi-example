@@ -109,16 +109,18 @@ Which gives:
      - uSwidEntity(regid="com.oem",name="OEM",roles=DISTRIBUTOR)
      - uSwidPayload(name="CryptoDxe.efi",size=24184)
      - uSwidHash(alg_id=SHA256,value="4e28869c26589e2ced2dcdeb71e834d55db1961be48fe6c16937b59518b0ffc0")
+     - uSwidEvidence(date="2023-10-06 16:09:14.629390",device_id=hughsie-work)
     uSwidIdentity(tag_id="f43cae5a-baea-5023-bc90-3a83cd4785cc",tag_version="0",software_name="gcc",software_version="13.2.1"):
      - uSwidEntity(regid="org.gnu",name="GNU Project",roles=SOFTWARE_CREATOR,TAG_CREATOR)
     uSwidIdentity(tag_id="bcbd84ff-9898-4922-8ade-dd4bbe2e40ba",tag_version="0",software_name="MCU 06-03-02",software_version="20230808"):
      - uSwidEntity(regid="com.intel",name="Intel Corporation",roles=TAG_CREATOR,SOFTWARE_CREATOR)
      - uSwidPayload(name="intel-ucode-06-03-02",size=12)
      - uSwidHash(alg_id=SHA256,value="a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447")
+     - uSwidEvidence(date="2023-09-15 12:34:56",device_id=None)
     uSwidIdentity(tag_id="b84ed8ed-a7b1-502f-83f6-90132e68adef",tag_version="0",software_name="fwupdx64",software_version="1.5"):
      - uSwidLink(rel="license",href="https://spdx.org/licenses/LGPL-2.0.html")
      - uSwidEntity(regid="hughsie.com",name="Richard Hughes",roles=MAINTAINER,TAG_CREATOR)
     uSwidIdentity(tag_id="21242ff8-e2c6-5801-a4f3-807acc08a2d2",tag_version="0",software_name="ModemBaseband",software_version="11.22.33"):
      - uSwidEntity(regid="hughski.com",name="Hughski Limited",roles=TAG_CREATOR,DISTRIBUTOR,SOFTWARE_CREATOR)
 
-The output `demo.uswid` is 798 bytes in size.
+The output `demo.uswid` is 842 bytes in size.

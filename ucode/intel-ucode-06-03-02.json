@@ -24,6 +24,11 @@
         ]
       }
     ],
+    "evidence": [
+      {
+        "date": "2023-09-15T12:34:56"
+      }
+    ],
     "entity": [
       {
         "entity-name": "Intel Corporation",
